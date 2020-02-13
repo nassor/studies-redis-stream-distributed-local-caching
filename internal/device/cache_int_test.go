@@ -5,11 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dgraph-io/ristretto"
-	"github.com/google/uuid"
-
 	"github.com/bxcodec/faker/v3"
+	"github.com/dgraph-io/ristretto"
 	"github.com/golang/protobuf/proto"
+	"github.com/google/uuid"
 	"github.com/mediocregopher/radix/v3"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
